@@ -14,3 +14,8 @@ Se muestran los folder con el archivo index.html, referenciado a
 la carpeta api => contiene el jscript rsa-oaep.js
 la carpeta imagenes => contiene imagenes encrypt.jpg, bg.jpg
 además de 2 hojas de estilo => reset.css y style.css
+
+#OneOracleNext <br>
+#AluraLatam <br>
+#OneG6 <br>
+#TechJourney<br>
