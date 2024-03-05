@@ -7,7 +7,7 @@ Este trabajo muestra el uso de las funnciones encrypt() y decrypt() tomadas de W
 * Más documentacion en el link:
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API
 * Challenge de Alura Latam G6 - ONE.
-* Desarrolado e Implementado por : Edgar Omar Vilafaña Manzanarez
+* Desarrollado e Implementado por : Edgar Omar Vilafaña Manzanarez
 * Alura Latam G6 - ONE.
 * Contenido.
 Se muestran los folder con el archivo index.html, referenciado a 
