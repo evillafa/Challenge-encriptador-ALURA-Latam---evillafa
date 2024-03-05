@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Encriptador / Desencriptador</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="api/rsa-oaep.js"></script>      
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+       
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/encrypt.jpg"></h1>
+                <br>
+                <h1>Práctica HTML+CSS+JSCRIPT.<br> Alura Latam  G6 - ONE
+                Edgar Villafaña.
+                </h1>
+                
+            </div>
+        </header>
+
+        
+        
+        <main>
+            <form>
+                <div class="formasec">
+                    <section class="ejemplo">
+                    <section class="encrypt-decrypt rsa-oaep">
+                      
+                      <section class="encrypt-decrypt-controls">
+                        <div class="message-control">
+                          <label class="alu">a</label>
+                
+                        
+                        <textarea cols="40" rows="3" id="message2">Escribe  y  copia  mensaje</textarea>
+                        </div>
+                        
+                        
+                        <input class="encrypt-button" type="button" value="Encriptar">
+                        <div class="ciphertext">Mensaje Cifrado :<span class="ciphertext-value"></span></div>
+                        <textarea cols="40" rows="3" id="rsa-oaep-message" value="Encriptar"> Pega tu mensaje</textarea>
+                        <input class="decrypt-button" type="button" value="Desencriptar">
+                        <div class="decrypted">Mensaje Desencriptado :  <span class="decrypted-value"></span></div>
+                      </section>
+                    </section>
+                </div>
+                
+              
+
+            </form>
+
+
+        </main>
+        
+        <footer>
+            
+            <p class="copyright">&copy Desafio Alura evillafa - 2024</p>
+        </footer>
+        
+    </body>
+   
+    
+</html>
